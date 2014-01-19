@@ -1,10 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>edu.indiana.d2i.htrc.clients</groupId>
     <artifactId>solrapi-client</artifactId>
-    <version>0.6.3-SNAPSHOT</version>
+    <version>0.6.3</version>
     <packaging>jar</packaging>
 
     <dependencies>
@@ -93,9 +92,9 @@
     </ciManagement>
 
     <scm>
-        <connection>scm:svn:${public.svn.root}/HTRC-Client-SolrAPI-Java/trunk</connection>
-        <developerConnection>scm:svn:${developer.svn.root}/HTRC-Client-SolrAPI-Java/trunk</developerConnection>
-        <url>${fisheye.svn.root}/HTRC-Client-SolrAPI-Java/trunk</url>
+        <connection>scm:svn:svn+ssh://svn.code.sf.net/p/htrc/code/HTRC-Client-SolrAPI-Java/tags/0.6.3</connection>
+        <developerConnection>scm:svn:svn+ssh://svn.code.sf.net/p/htrc/code/HTRC-Client-SolrAPI-Java/tags/0.6.3</developerConnection>
+        <url>scm:svn:svn+ssh://svn.code.sf.net/p/htrc/code/HTRC-Client-SolrAPI-Java/tags/0.6.3</url>
     </scm>
 
     <repositories>
